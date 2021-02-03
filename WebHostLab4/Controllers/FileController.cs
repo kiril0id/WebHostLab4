@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -35,6 +36,11 @@ namespace WebHostLab4.Controllers
         {
             string file_path = Path.Combine(_appEnvironment.ContentRootPath, "File/");
               string[] files = Directory.GetFiles(file_path);
+            
+            for (int i = 0; i < files.Length; i++)
+            {
+                files[i] = Regex.Match(files[i], @"[^/]*$").Value;
+            }
 
             return files;
         }   

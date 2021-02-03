@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebHostLab4", "WebHostLab4\WebHostLab4.csproj", "{C6056509-29F8-4CDD-BBE2-5470DC9361DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebHostLab4", "WebHostLab4\WebHostLab4.csproj", "{C6056509-29F8-4CDD-BBE2-5470DC9361DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienWpf", "ClienWpf\ClienWpf.csproj", "{84054288-7DF2-41F1-BFD6-529A6A1178FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C6056509-29F8-4CDD-BBE2-5470DC9361DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6056509-29F8-4CDD-BBE2-5470DC9361DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6056509-29F8-4CDD-BBE2-5470DC9361DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84054288-7DF2-41F1-BFD6-529A6A1178FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84054288-7DF2-41F1-BFD6-529A6A1178FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84054288-7DF2-41F1-BFD6-529A6A1178FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84054288-7DF2-41F1-BFD6-529A6A1178FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
